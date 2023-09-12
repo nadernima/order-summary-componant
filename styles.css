@@ -1,0 +1,84 @@
+.container {
+    border: 1px solid #cec8c8;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container svg {
+   width: 400px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+  }
+
+  .container h1 {
+   font-family: 'Heebo', sans-serif;
+  }
+
+  .container p {
+   font-family: 'Heebo', sans-serif;
+   font-size: 16px;
+   color: rgb(83, 84, 85);
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+
+   .price-plan {
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px 10px 10px 10px;
+   border-radius: 10px;
+   background-color: #f7f9fd;
+   justify-content: center;
+   display: flex;
+  }
+
+  .icon {
+   padding-left: 10px;
+  }
+
+
+  .column {
+   flex-direction: column;
+   font-size: 15px;
+   font-family: 'Outfit', sans-serif;
+   padding-right: 20px;
+  }
+
+  .column h4 {
+   margin: 0;
+  }
+
+  .column p {
+   margin: 0;
+  }
+
+  .price-plan .second-p {
+   font-family: 'Heebo', sans-serif;
+   font-size: 15px;
+   color: #594ff0;
+   text-align: center;
+  }
+  
+ 
+
+  button {
+   padding: 10px 100px 10px 100px;
+   margin-top: 30px;
+   font-family: Arial;
+   font-size: 16px;
+   background-color: #594ff0;
+   color: #f7f9fd;
+   border: none;
+   border-radius: 10px;
+  }
+
+
+  .cancel {
+   color: black;
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+  }
